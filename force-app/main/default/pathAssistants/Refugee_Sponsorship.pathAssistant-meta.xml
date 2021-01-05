@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>pmdm__ProgramEngagement__c</entityName>
+    <fieldName>pmdm__Stage__c</fieldName>
+    <masterLabel>Refugee Sponsorship</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Document the reason for denial&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Application Denied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Monitor process status, support the interview process&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Serve as contact between IRCC and refugees and sponsors&lt;/li&gt;&lt;li&gt;Update ROC-O and VOs of any changes to applications - add members, change of contact info&lt;/li&gt;&lt;li&gt;Prepare documents and updated applications required by VO for interview&lt;/li&gt;&lt;li&gt;Check status online &lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Application Processing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Clean and archive files as needed&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Completed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Determine eligibility of refugee&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Gather info on refugee - UNHCR Refugee Status Determination (RSD) or from govt of COA &lt;/li&gt;&lt;li&gt;Assurance of funds (relatives, or if not, a parish)&lt;/li&gt;&lt;li&gt;Determine parish/CG&lt;/li&gt;&lt;li&gt;Meet with co-sponsor and CG&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Inquiry</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Settle the family, ensure financial support&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Welcome at the airport&lt;/li&gt;&lt;li&gt;Newcomers orientation&lt;/li&gt;&lt;li&gt;Issue quarterly reports&lt;/li&gt;&lt;li&gt;Send reminders regarding financial support&lt;/li&gt;&lt;li&gt;Home visits&lt;/li&gt;&lt;li&gt;Gather documentation&lt;/li&gt;&lt;li&gt;Conduct Exit Interview&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Landed - 12 Months</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Prepare for arrival of family&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Update the Settlement Plan and budget; ensure CG/co-sponsors are ready with trust fund&lt;/li&gt;&lt;li&gt;Pre-Arrival training for co-sponsors and CG&lt;/li&gt;&lt;li&gt;Get contact info for airport pickup; provide the info to IRCC and CANN YVR&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Preparing for Arrival</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Gather and ensure correct and complete applications for submission to ROC-O&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Receive signed applications and documents, refugee story, photos from refugee/co-sponsor&lt;/li&gt;&lt;li&gt;Receive sponsors applications from co-sponsor and CG&lt;/li&gt;&lt;li&gt;Ensure all applications are filled out correctly&lt;/li&gt;&lt;li&gt;Submit application packet by email&lt;/li&gt;&lt;li&gt;Ensure auto-reply is received from ROC-O when application email is sent&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Submission of Applications</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Assist with Secondary Migration&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Assist in filling out IMM5373 (signed by JB)&lt;/li&gt;&lt;li&gt;If no new SAH, continue monitoring sponsorship&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Transferred</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;h2&gt;&lt;b&gt;Guidance for Success&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;b&gt;Document the reason for withdrawal&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Withdrawn</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Refugee_Sponsorship</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__Disbursement_NPSP_Record</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>outfunds__Disbursement__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__Disbursement_NPSP_Record</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>outfunds__Disbursement__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__GAU_Expenditure_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>outfundsnpspext__GAU_Expenditure__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__GAU_Expenditure_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>outfundsnpspext__GAU_Expenditure__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__GAU_Outbound_Funds_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>npsp__General_Accounting_Unit__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>outfundsnpspext__GAU_Outbound_Funds_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>npsp__General_Accounting_Unit__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Refugees_Sponsorship_Program_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Refugee Services</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+        <recordType>pmdm__ProgramEngagement__c.Refugee_Sponsorship</recordType>
+        <type>Flexipage</type>
+        <profile>Refugees Program Staff</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+        <recordType>pmdm__ProgramEngagement__c.Refugee_Sponsorship</recordType>
+        <type>Flexipage</type>
+        <profile>Refugees Program Staff</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+        <recordType>pmdm__ProgramEngagement__c.Refugee_Sponsorship</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Program_Engagement_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>pmdm__ProgramEngagement__c</pageOrSobjectType>
+        <recordType>pmdm__ProgramEngagement__c.Refugee_Sponsorship</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>pmdm__Program__c</tabs>
+    <tabs>pmdm__ProgramEngagement__c</tabs>
+    <tabs>Sponsorship_Requirement__c</tabs>
+    <tabs>outfunds__Funding_Request__c</tabs>
+    <tabs>pmdm__ServiceDelivery__c</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-report</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Refugee_Services_UtilityBar</utilityBar>
+</CustomApplication>
