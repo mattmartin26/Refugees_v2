@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.19.1'
+project:
+    name: Refugees_v2
+    package:
+        name: Refugees_v2
+        api_version: '49.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/NPSP'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Refugees_v2/tests
+            options:
+                outputdir: robot/Refugees_v2/results
+
+    robot_testdoc:
+        options:
+            path: robot/Refugees_v2/tests
+            output: robot/Refugees_v2/doc/Refugees_v2_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
